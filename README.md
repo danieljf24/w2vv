@@ -1,5 +1,4 @@
 # Word2VisualVec
----
 
 This package is a python implementation of image caption retrieval using Word2VisualVec. [Word2VisualVec](https://ieeexplore.ieee.org/document/8353472/) is a deep neural network architecture that learns to predict a deep visual feature of textual input based on multi-scale sentence vectorization and a multi-layer perceptron, which has been already successfully used in image(video) caption retrieval [1] and video captioning [2]. Moreover, it is also our winning solution for Matching and Ranking subtask of Video to Text Description in TRECVID 2016 [3].
 
@@ -14,7 +13,7 @@ This package is a python implementation of image caption retrieval using Word2Vi
 * **pydot** for keras visualization
 * **tensorboard_logger** for tensorboard visualization
 
-We have used virtualenv to setup a deep learning workspace that supports keras with TensorFlow backend.
+We used virtualenv to setup a deep learning workspace that supports keras with TensorFlow backend.
 Run the following script to install the required packages.
 ```shell
 virtualenv --system-site-packages ~/w2vv
