@@ -117,9 +117,10 @@ image_id_n#1 sentence_k
 When the data is ready, use the following script to train and evaluate Word2VisualVec on your own dataset.
 ```shell
 source ~/w2vv/bin/activate
-./do_all.sh ${train_set_name} ${val_set_name} ${test_set_name}
+./do_all_own_data.sh ${train_set_name} ${val_set_name} ${test_set_name} --img_feature=${feature_name} --n_caption=${caption_num}
 deactive
 ```
+where `train_set_name`, `val_set_name` and `test_set_name` indicate the name of traning, validation and test set, respectively. Besides, `feature_name` is the visual feature name and `caption_num` denotes the number of captions for each image. For flickr8k and flickr30 datasets, the value of `caption_num` is 5. 
 
 ## How to use a pre-trained Word2VisualVec?
 Word2VisualVec essentially generates a dense representation of a given sentence.
