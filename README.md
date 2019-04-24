@@ -2,6 +2,8 @@
 
 This package is a python implementation of image caption retrieval using Word2VisualVec. [Word2VisualVec](https://ieeexplore.ieee.org/document/8353472/) is a deep neural network architecture that learns to predict a deep visual feature of textual input based on multi-scale sentence vectorization and a multi-layer perceptron, which has been already successfully used in image(video) caption retrieval [1] and video captioning [2]. Moreover, it is also our winning solution for Matching and Ranking subtask of Video to Text Description in TRECVID 2016 [3].
 
+**Note a better video-text matching model is available [here](https://github.com/danieljf24/dual_encoding).**
+
 ![image](w2vv.jpg)
 
 ## Requirements
