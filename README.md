@@ -30,6 +30,7 @@ deactivate
 
 #### Required Data
 Run `do_get_dataset.sh` or the following script to download and extract flickr8k(58M), flickr30k(230M) dataset and a pre-trained word2vec(3.0G).
+The data can also be downloaded from [Google Drive](https://drive.google.com/open?id=1AgFzl7OvfmEQAOYzdbNbbL2r9ox6TpJA) and [Baidu Pan](https://pan.baidu.com/s/1aoGDxmEUH6XRSigQ64KFTA).
 The extracted data is placed in `$HOME/VisualSearch/`.
 ```shell
 ROOTPATH=$HOME/VisualSearch
